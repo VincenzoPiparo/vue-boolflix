@@ -1,0 +1,33 @@
+<template>
+    <!-- WE CREATE A MINIMAL LAYOUT FOR VIEWING ONLY -->
+    <header>
+        <!-- CREATION A SECTION OF SEARCH -->
+        <!-- WE GIVE A TEMPORARY REFERENCE CLASS THAT WE WILL USE IN THE FOLLOWING MILESTONES -->
+        <div class="section_nav">
+            <!-- CREATION AN INPUT -->
+            <input type="text" placeholder="Search">
+            <!-- CREATION A BUTTON -->
+            <button></button>
+        </div>
+    </header>
+</template>
+
+
+<script>
+
+</script>
+
+
+
+
+<style lang="scss" scoped>
+button {
+  width: 70px;
+  padding: 14px 10px;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  
+}
+</style>
