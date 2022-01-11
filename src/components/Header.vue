@@ -21,6 +21,8 @@
 
 
 <style lang="scss" scoped>
+// ASSEGNARE DELLE CLASSI NELLE MILESTONE SUCCESSIVE PER RENDERE LA WEB APP PIU' CARINA
+// HO DATO AL BOTTONE UN MINIMO DI STILI PER FARLO VEDERE
 button {
   width: 70px;
   padding: 14px 10px;
@@ -28,6 +30,5 @@ button {
   background-color: red;
   color: white;
   cursor: pointer;
-  
 }
 </style>
