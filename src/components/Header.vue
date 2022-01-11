@@ -7,7 +7,7 @@
             <!-- CREATION AN INPUT -->
             <input type="text" placeholder="Search">
             <!-- CREATION A BUTTON -->
-            <button></button>
+            <button>Cerca</button>
         </div>
     </header>
 </template>
