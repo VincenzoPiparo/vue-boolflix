@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Movie from '@/components/Movie.vue';
+import Movie from '../components/Movie.vue';
 export default {
   name: 'Main',
   components: {
