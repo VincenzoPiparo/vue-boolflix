@@ -1,7 +1,7 @@
 <template>
     <section class="box">
         
-        <!-- title and langs-->
+        <!-- title and description-->
         <ul>
             <li>
                 <strong>Titolo:{{ type.title}}</strong>
