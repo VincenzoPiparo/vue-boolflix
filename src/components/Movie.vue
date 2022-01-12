@@ -31,6 +31,7 @@
                 <li>
                     <strong>Overview:</strong>{{type.overview}}
                 </li>
+                <li></li>
             </ul>
         </div>
     </section>
