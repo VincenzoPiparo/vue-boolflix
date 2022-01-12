@@ -1,17 +1,30 @@
 <template>
-    <section>
-        <!-- SECTION FILM -->
-        <ul>
-            <li>Titolo</li>
-            <li>Titolo Originale</li>
-            <li>Lingua</li>
-            <li>Voto</li>
-        </ul>
+     <!--FILM-->
+    <section v-show="movies.length" class="movies">
+      <h2>Film</h2>
+         <ul>
+           <li
+               v-for="movie in movies" 
+              :key="movie.id">
+              <Movie
+              :type="movie"
+              />
+          </li>
+         </ul>
     </section>
 </template>
 
 <script>
-
+import Movie from '@/components/Movie.vue';
+export default {
+  name: 'Main',
+  components: {
+    Movie
+  },
+  props: {
+    movies: Array,
+  }
+}
 </script>
 
 <style lang="scss" scoped>
