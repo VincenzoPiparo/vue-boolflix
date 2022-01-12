@@ -46,5 +46,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/styles/general';
+@import './styles/general';
 </style>
