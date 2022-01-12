@@ -23,11 +23,11 @@
 
                 <!--vote-->
                 <!-- MILESTONE 3 -->
-                <!-- <li>
+                 <li>
                     <strong>Voto:</strong>  
                     <span v-for="val in getVote" :key="val"><i class="fas fa-star"></i></span>            
-                </li> -->
-                <!-- Description -->
+                </li>
+               <!-- DESCRIPTION -->
                 <li>
                     <strong>Overview:</strong>{{type.overview}}
                 </li>
@@ -42,16 +42,17 @@ export default {
      props: {
         type: Object,
     },
+    // RITORNO DELLE FLAG
     data() {
         return{
             flagArray:['en', 'es', 'it'],
         }
+    },
+    computed:{
+        getVote(){
+            return Math.ceil(this.type.vote_average/2);
+        }
     }
-    // computed:{
-    //     getVote(){
-    //         return Math.ceil(this.type.vote_average/2);
-    //     }
-    // }
 }
 
 </script>
