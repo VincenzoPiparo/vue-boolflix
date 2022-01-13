@@ -1,7 +1,7 @@
 <template>
      <!--FILM SECTION-->
-    <section v-show="movies.length" class="movies">
-      <h2>Film</h2>
+    <main>
+      <h2>Film</h2> 
          <ul>
            <li
                v-for="movie in movies" 
@@ -12,7 +12,7 @@
           </li>
          </ul>
      <!-- SERIETV SECTION -->
-         <section v-show="tv.length" class="movies">
+         
             <h2>Tv Show</h2>
                 <ul>
                     <li
@@ -23,8 +23,8 @@
                     />
                     </li>
                 </ul>
-        </section> 
-    </section>
+    </main>
+       
 </template>
 
 <script>
